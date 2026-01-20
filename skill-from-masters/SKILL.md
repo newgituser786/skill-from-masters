@@ -267,7 +267,45 @@ Check Stop Condition → [All 5 YES?]
 ❌ Still broad → Continue narrowing
 ```
 
-### Step 2: Identify Relevant Domains
+### Step 2: Identify Skill Type
+
+**CRITICAL:** Different skill types require fundamentally different methodologies and quality criteria.
+
+Consult `references/skill-taxonomy.md` for the full taxonomy. The core types are:
+
+| Type | Core Operation | Key Question |
+|---|---|---|
+| **Summary** | Compress | Need comprehensive coverage? |
+| **Insight** | Extract | Need to find what really matters? |
+| **Generation** | Create | Need new content created? |
+| **Decision** | Choose | Need to make a choice? |
+| **Evaluation** | Judge | Need quality judgment? |
+| **Diagnosis** | Trace | Need to find root cause? |
+| **Persuasion** | Bridge | Need to change someone's mind? |
+| **Planning** | Decompose | Need a roadmap? |
+| **Research** | Discover | Need knowledge gathered? |
+| **Facilitation** | Elicit | Need to extract info from others? |
+| **Transformation** | Map | Need format conversion? |
+
+**How to Identify:**
+
+Ask the user: "Based on what you described, this sounds like a **[Type]** skill—the goal is to [core operation]. Is that right?"
+
+**Common Confusions to Clarify:**
+- Summary vs Insight: "Do you need comprehensive coverage, or just the key signals that matter?"
+- Decision vs Evaluation: "Do you need to make a choice, or judge the quality of something?"
+- Research vs Insight: "Do you need to gather information, or interpret what it means?"
+
+**Why This Matters:**
+
+Each type has different:
+- **Methodology sources** to draw from
+- **Quality criteria** to evaluate output
+- **Output format** conventions
+
+Document the identified type before proceeding.
+
+### Step 3: Identify Relevant Domains
 
 Map the skill to one or more methodology domains. A single skill may span multiple domains.
 
@@ -277,7 +315,7 @@ Example mappings:
 - "Presentation skill" → Storytelling, Visual Design, Persuasion
 - "Code review skill" → Software Engineering, Feedback, Communication
 
-### Step 3: Surface Expert Methodologies (Until Crystal Clear)
+### Step 4: Surface Expert Methodologies (Until Crystal Clear)
 
 **GOAL:** Don't stop until you have **very clear, reliable conclusions** about the best methodology.
 
@@ -314,7 +352,7 @@ For each relevant domain, present:
 - Source materials (books, talks, interviews)
 - **Confidence level** in the methodology (keep searching if low)
 
-### Step 4: Find Golden Examples
+### Step 5: Find Golden Examples
 
 Before finalizing methodology selection, search for exemplary outputs:
 - Search: "best [output type] examples"
@@ -323,7 +361,7 @@ Before finalizing methodology selection, search for exemplary outputs:
 
 Understanding what excellence looks like helps define the quality bar.
 
-### Step 5: Collaborative Selection
+### Step 6: Collaborative Selection
 
 Present the methodologies to the user and discuss:
 - Which frameworks resonate with their goals?
@@ -333,7 +371,7 @@ Present the methodologies to the user and discuss:
 
 Guide the user to select 1-3 primary methodologies that will form the skill's foundation.
 
-### Step 6: Extract Actionable Principles
+### Step 7: Extract Actionable Principles
 
 For each selected methodology, search for and distill:
 
@@ -355,7 +393,7 @@ For each selected methodology, search for and distill:
 
 Fetch primary sources to get exact wording and nuance, not just summaries.
 
-### Step 7: Cross-Validate
+### Step 8: Cross-Validate
 
 Compare insights across multiple sources:
 - What principles appear consistently? (high confidence)
@@ -364,7 +402,7 @@ Compare insights across multiple sources:
 
 Synthesize a coherent framework that takes the best from each source.
 
-### Step 8: Design Test Scenarios (Before Generation)
+### Step 9: Design Test Scenarios (Before Generation)
 
 **CRITICAL:** Before generating the skill, design comprehensive test scenarios.
 
@@ -389,7 +427,7 @@ Work with the user to identify:
 
 Document these test scenarios — they'll be used after generation to validate and iterate.
 
-### Step 9: Generate the Skill
+### Step 10: Generate the Skill
 
 With methodologies confirmed and test scenarios designed, **invoke the `skill-creator` skill** to generate the final skill with proper format.
 
@@ -418,11 +456,11 @@ The generated skill should:
 6. Match the quality bar of the best human practitioners
 7. **Include the test scenarios** as part of the skill's self-validation
 
-### Step 10: Test, Review, and Iterate
+### Step 11: Test, Review, and Iterate
 
 **Don't stop at first generation.** Quality emerges through iteration.
 
-1. **Run Test Scenarios**: Apply the skill to each test case designed in Step 8
+1. **Run Test Scenarios**: Apply the skill to each test case designed in Step 9
 2. **Evaluate Results**: Compare outputs against quality criteria
 3. **Identify Gaps**: Where did the skill fall short?
 4. **Refine Methodology**: Do we need additional expert guidance?
